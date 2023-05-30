@@ -1,0 +1,4 @@
+Intro to Linux Scripting:
+The course provides a comprehensive explanation of shell scripting. Topics covered included shell built-ins, variables, comments, and capitalization through 
+great examples. Using comments to write pseudo code to simplify long codes was a great hack taught. Decisions can be implemented in shell scripting by using 
+IF statements. A person has to be careful with the spacing, as shell scripting is sensitive to spacing.
