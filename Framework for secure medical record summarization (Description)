@@ -1,0 +1,19 @@
+Framework for secure medical record summarization:
+The paper explains a decentralized model for storing electronic medical prescriptions and records using blockchain technology, InterPlanetary File System (IPFS), 
+and Ethereum with decentralized applications. The goal here is to protect sensitive patient data and provide easy access to medical data when needed. 
+This framework uses AI techniques, like optical character recognition (OCR) and machine learning, to process and summarize the stored medical records into a 
+patient's history report. This report contains essential information and is securely stored on a decentralized blockchain. But challenges of time constraints and 
+incomplete medical history for doctors must be addressed to improve healthcare provisions. 5G network is integrated into the framework for fast and reliable
+communication. The proposed system model involves creating a distributed network on Ethereum, uploading medical records to IPFS with Ethereum smart contracts,
+extracting information using OCR and machine learning, and generating a comprehensive summary. People accessing this report include doctors, patients and other 
+authorized stakeholders. The framework adds value to the EMR system by improving efficiency and accessibility while ensuring data security. 
+The system uses the IPFS python library to connect to an IPFS Peer via Infura. The documents are retrieved using their hash. Image preprocessing happens and 
+is sent to the Tesseract OCR engine for text extraction. Preprocessing includes rescaling, removing shadows, noise reduction etc. For handwritten prescriptions,
+the system uses Microsoft Azure Computer Vision API.
+Three sub-utilities are used in the system. Sub-utility 1 is for extracting data from printed prescriptions using OCR, two extracts abnormal values and 
+corresponding test names from reports using the Pythondocx package and three extracts data from handwritten prescriptions using Microsoft Azure.
+The IPFS hashes are stored on the blockchain to reduce costs. The execution time for accessing media from IPFS increases with the number of peers and the 
+size of the image or report. Cost considerations are a primary factor in choosing cloud platforms for OCR; that's why Microsoft Azure is selected with its 
+least projected costs among all other choices. The accuracy achieved differed based on different document types, with the best accuracy observed with Type 1 
+documents. Preprocessing the images resulted in an overall improvement in character recognition accuracy. The model generates summary reports that provide 
+concise information for healthcare professionals, reducing the time required for analysis. 
