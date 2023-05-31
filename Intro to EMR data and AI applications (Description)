@@ -1,0 +1,10 @@
+Intro to EMR data and AI applications:
+The article starts by providing details about the importance of big data and artificial intelligence (AI). We see that hospitals are adopting AI to improve 
+operational efficiency and patient management using EMR (Electronic Medical Record) data. EMR data includes a patient's health history and other information, 
+which can be used for various purposes like creating personalized medicine and new drug development. But we should be aware that, to improve the performance of 
+AI research using EMR data, we must ensure proper data standardization, refinement, and quality management. We should also be aware that protecting patient 
+privacy is vital due to the sensitive nature of EMR data. Governments like the United States and Korean governments are supporting various initiatives and 
+implementing them to promote the use of EMR data for research and encourage researchers to be more proactive. The article continued to discuss the different 
+types of medical data in EMR, which are structured, semi-structured, and unstructured data, and it highlighted the applications and examples of AI research using 
+EMR data, particularly in cardiovascular diseases and diabetes. It concluded by mentioning the policies and considerations to be considered when researching 
+EMR data, emphasizing the need for collaboration between medical and analysis domains and appropriate data preprocessing techniques.
